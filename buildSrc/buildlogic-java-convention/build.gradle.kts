@@ -5,7 +5,7 @@ plugins {
 group = "buildlogic"
 
 dependencies {
-    implementation("buildlogic:versioning")
+    implementation(project(":buildlogic-versioning"))
 }
 
 repositories {
